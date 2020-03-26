@@ -18,3 +18,10 @@ Use this package as an RStudio addin, there is
 no need to load it explicitly. Simply select a piece
 of code and use the addin menue to run it as a job.
 
+![]("man/figures/scriptExample.gif")
+
+This means that it also works from Rmarkdown documents
+with a chunk highlighted (press Ctrl+Shif+Up to expand
+the selection as far as needed).
+
+![]("man/figures/rmdExample.gif")

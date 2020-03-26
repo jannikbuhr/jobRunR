@@ -1,4 +1,10 @@
 Name: Run selection as Job
-Description: Runs the current selection as a job (with copy and export of environment, uses here::here() so set working direcotry)
-Binding: runSelectionJob
+Description: Runs the current selection as a job (with a copy and export of environment, uses here::here() so set working direcotry)
+Binding: runJob
 Interactive: false
+
+Name: Run selection as Job without exporting the resulting environment
+Description: Runs the current selection as a job (with a copy of the environment, no export, uses here::here() so set working direcotry)
+Binding: runJobQuietly
+Interactive: false
+
