@@ -1,0 +1,4 @@
+Name: Run selection as Job
+Description: Runs the current selection as a job (with copy and export of environment, uses here::here() so set working direcotry)
+Binding: runSelectionJob
+Interactive: false
